@@ -121,11 +121,14 @@ nav img {
     flex-direction: row;
 }
 
-#menu #menuOptions p {
+#menu #menuOptions button {
     margin: 0 32px;
     font-size: 28px;
     color: #FFFFFF;
     font-family: "Poppins-Medium";
+    text-decoration: none;
+    background-color: unset;
+    border: none;
 }
 
 #menu #productsContainer {
