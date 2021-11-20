@@ -129,18 +129,19 @@ nav img {
 }
 
 #menu #productsContainer {
-    display: flex;
+    display: inline-flex;
     width: 80%;
     height: fit-content;
     max-height: 800px;
     margin-top: 32px;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 
 #productsContainer .product {
     display: flex;
-    width: 500px;
+    width: 45%;
     height: 200px;
     flex-wrap: wrap;
     justify-content:space-between;
