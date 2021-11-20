@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
 }
+
 body {
     background: #000000;
     margin: 0;
@@ -83,6 +84,7 @@ nav img {
     font-family: "Poppins-SemiBold";
     color: #FFFFFF;
 }
+
 #arrow-down {
     color: #ffffffce;
     height: 30px;
@@ -100,7 +102,8 @@ nav img {
     display: flex;
     justify-content: space-around;
 }
-#imagesZone img{
+
+#imagesZone img {
     width: 290px;
     height: 223px;
 }
@@ -125,12 +128,52 @@ nav img {
     font-family: "Poppins-Medium";
 }
 
-#menu #products {
+#menu #productsContainer {
     display: flex;
-    width: 900px;
-    height: 450px;
-    justify-content: center;
-    background-color: green
+    width: 80%;
+    height: fit-content;
+    max-height: 800px;
+    margin-top: 32px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#productsContainer .product {
+    display: flex;
+    width: 500px;
+    height: 200px;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.product img {
+    width: 30%;
+    height: 100%
+}
+.product div{
+    width: 65%;
+}
+.product div .title {
+    width: 100%;
+    height: fit-content;
+    font-size: 32px;
+    font-family: "Poppins-SemiBold";
+    color: #DB4114;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.product div p {
+margin:0;
+width: 100%;
+text-align: start;
+
+}
+
+.product .title span {
+    color: #FFFFFF;
+    text-align: end;
 }
 
 /*Section 4*/
@@ -182,12 +225,13 @@ nav img {
 .locations .location {
     height: fit-content;
     margin-bottom: 16px;
-    
+
 }
-.locations .location p{
-   text-align: start;
-   margin:  0;
-    
+
+.locations .location p {
+    text-align: start;
+    margin: 0;
+
 }
 
 /*Footer*/
@@ -195,8 +239,7 @@ footer section {
     display: flex;
     width: 100%;
     height: 87px;
-    max-width: 1200px;
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
     justify-content: space-between;
     padding: 0 16px;
     box-sizing: border-box;
@@ -213,7 +256,8 @@ footer section #logo {
     justify-content: center;
     align-items: center;
 }
-.socialNetworks img{
+
+.socialNetworks img {
     margin: 0 8px;
 }
 
