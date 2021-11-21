@@ -13,18 +13,24 @@ section:not(:first-child) {
 }
 
 h2 {
+    display: flex;
     width: 100%;
     font-size: 48px;
     text-align: center;
     color: #FFFFFF;
     font-family: "Poppins-SemiBoldItalic";
+    align-items: center;
+    justify-content: center;
 }
 
 h4 {
+    display: flex;
     font-size: 28px;
     margin: 0;
     color: #FFFFFF;
     font-family: "Poppins-SemiBold";
+    align-items: center;
+
 }
 
 .smallText {
@@ -108,6 +114,7 @@ nav img {
     height: 223px;
 }
 
+
 /*Section 3*/
 #menu {
     display: flex;
@@ -125,6 +132,7 @@ nav img {
     border-bottom: #DB4114 5px solid !important;
 }
 #menu #menuOptions button {
+    display: flex;
     margin: 0 32px;
     font-size: 28px;
     color: #FFFFFF;
@@ -132,6 +140,7 @@ nav img {
     text-decoration: none;
     background-color: unset;
     border: unset;
+    align-items: center;
 }
 
 
@@ -199,6 +208,7 @@ text-align: start;
     width: 100%;
     text-align: center;
 }
+
 
 #order p {
     margin: 8px;
